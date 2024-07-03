@@ -88,7 +88,7 @@
         }
 
         function getResponse(message) {
-            const accessToken = 'jordancamposreyes'; // Reemplaza con tu token de acceso de Dialogflow
+            const accessToken = 'ya29.a0AXooCguV-NgTGx7AgiHv9lPxWx47WQ2hpCJDsY0WLApdc-wQG6dwtd3GqHTfA4xFJK_aYOVGcD8aDeMQqxKl3gWJk4mSeG8cEFagYotoiLwfY6Ox6pEK2V6WIQGdR8UuSwZxFoM_4uZLaFY4ys2CxXoV0XsM68lulLS67yLMKtyphkQRK9PmSztvuG5D1FoQ9-VkSVTlpAoNl8qKvRv3eKYdudlndPScuMvE7FxEmpMNYNSGqmrYdNbClg7AcrPI-owE-_TvWP53DNbdCvKh02xJuydJVtGwg1QmfhUw9ZeRZCqFh_bFSkAT_NehinQ6HtRlFTqrIhEXX0epw1G9E4EJFkCW0_Xm1L72auE9jkzNQ4soC6qoQfjKPaePhddXMavKnxoS4WQpXAxdqusvYmeV7HSLqAaCgYKASQSARESFQHGX2Mi9GC5mYUW-mjmDqwUKoZ9Bg0421'; // Reemplaza con tu token de acceso de Dialogflow
 
             fetch(`https://api.dialogflow.com/v1/query?v=20150910&query=${message}&lang=es&sessionId=12345`, {
                 method: 'GET',
